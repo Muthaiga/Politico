@@ -2,54 +2,49 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Sign-in.</title>
-
-  </head>
+    <title>sign-up page</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
   <body>
-    <div class="Register">
-      <h1>Register with Political today.</h1>
-      <h4>Kindly fill in all the fields below.</h4>
-      <div class="form">
-        <label>
-          <h5>First Name</h5>
-          <input type="text" name="" value="" "required">
+      <div class="logo">
+        POLITICO
+        <img src="/home/jakana/politico/images/pic1.jpg" alt="logo" width="50px" height="50px">
+      </div>
+        <div class="navbar">
+          <ul>
+            <a href="home">Home</a>
+            <a href="log in">Log in</a>
+            <a href="FAQs">FAQs</a>
+            <a href="help">Help</a>
+          </ul>
 
-        </label>
-        <label>
-          <h5>Last Namae</h5>
-          <input type="text" name="" value="" "required">
-        </label>
-        <label>
-          <h5>Voters ID number</h5>
-          <input type="" value="" placeholder="Must be 9 characters" "required">
-        </label>
-        <label>
-          <h5>Email Adrress</h5>
-          <input type="" name="" value="" placeholder="address@email.com" required>
-        </label>
-        <label>
-          <h5>Adrress</h5>
-          <input type="" name="" value="">
-        </label>
-      <div class="dropdown">
-          <label>
-            <h5>Choose your county</h5>
-              <button ="dropbtn">Dropdown</button>
-          </label>
-          <label>
-            <h5>Choose your constituency</h5>
-            <button ="dropbtn">Dropdown</button>
-          </label>
-          <label>
-            <h5>Choose your locatoion</h5>
-            <button ="dropbtn">Dropdown</button>
-          </label>
-        </div>
-        <p id="have an account"><a href="">Already have an account?</a></p>
-        <div class="footer-dark">
-     		<footer>
-     			<p id="copyright">Political.© 2019. All Rights Reserved</p>
-     		</footer>
+    </div>
+
+    <div class="signup-box">
+
+        <h1>POLITICO.THE CERTIFIED VOTING APP. .</h1>
+        <h3>Please fill in the form below to get a free account!</h3>
+    </div>
+
+    <div class="form">
+        <input type="text" name="Firstname" placeholder="First Name." required/>
+        <input type="text" name="lastname" placeholder="Last Name" required/>
+        <input type="text" name="email" placeholder="address@email.com." required/>
+        <input type="text" name="Voters ID" placeholder="Enter your ID number." required/>
+        <input type="password" pattern=".{6,12}" title="Password must be between 6 and 12 characters"
+        placeholder="Enter Password." required>
+        <input type="text" name="password2" placeholder="Repeat Password." required/>
+
+    </div>
+
+        <input type="submit" name="signup-button" value="Sign Up"/>
+
+      <div class="logs">
+        <footer>
+          <p id="copyright"> POLITICO.© 2019. All Rights Reserved</p>
+        </footer>
+
+      </div>
 
   </body>
 </html>
