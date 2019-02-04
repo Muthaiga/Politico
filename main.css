@@ -12,6 +12,7 @@ body {
 
 #logo {
   width: 100%;
+  float: left;
   height: 20%;
   background-color: #595959;
   font-size: 30px;
@@ -52,6 +53,7 @@ img {
 #logright {
 float: left;
 text-align: left;
+height: 30px;
 
 }
 
@@ -76,19 +78,31 @@ text-align: left;
   color: #fff;
 }
 
-.fields right-box {
-text-align: left;
+#upcoming th,td {
+text-align:center;
 column-rule-color: #ff9900;
-
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+border: 3px solid  #4d94ff;
+padding: 5px;
+}
+#upcoming th {
+  height: 50px;
+  font-size: 20px;
+  color: #000;
+}
+#upcoming td {
+  height: 100px;
 }
 
+.fields left-box {
+  background-color: #fff;
+  float: right;
+  margin-left: 80px
+}
 #dashb {
   width: 20%;
   float: right;
-  margin-left: 90%;
-  background-color: #fff;
-  font-size: 18px;
-
+  margin-left: 90%
 }
 
 input[type="text"],
@@ -131,4 +145,11 @@ input[type="submit"]{
   cursor: progress;
   align-items: center;
 
+}
+
+footer {
+  text-align: center;
+  background-color: #e6e6e6;
+  margin: 1px solid #000;
+  padding-bottom: 3px;
 }
