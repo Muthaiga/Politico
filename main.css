@@ -1,0 +1,155 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  color: #666;
+  font: 1.2em/1.4em 'Myriad Pro', Helvetica, Arial, san serif;
+  text-align: left;
+  margin: 0px;
+  background-image: url(/home/jakana/politico/images/elect.jpg);
+  background-size: cover;
+
+}
+
+#logo {
+  width: 100%;
+  float: left;
+  height: 20%;
+  background-color: #595959;
+  font-size: 30px;
+  color: #fff;
+  padding-bottom: 5px;
+  margin-top: 5px;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 60px;
+  height: 30px;
+}
+
+.navbar {
+  width: 100%;
+  text-align: right;
+  background-color: #e6e6e6;
+  float:right;
+  border-bottom: 3px #000;
+}
+
+.navbar a {
+  float: right;
+  color: #000;
+  text-align:right;
+  padding: 15px;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  background-color:  #ff9900;
+  color: #000;
+}
+
+#logright {
+float: left;
+text-align: left;
+height: 30px;
+
+}
+
+.heads {
+  width: 100%;
+  height: 20%;
+  background-color: #cce6ff
+  margin: 0px;
+  float: left;
+  text-align: center;
+  color: #000;
+
+}
+.fields {
+  width: 100%;
+  background-color: #595959;
+  margin:10px auto;
+  height: 100%;
+  padding: 5px;
+  float:left;
+  text-align: center;
+  color: #fff;
+}
+
+#upcoming th,td {
+text-align:center;
+column-rule-color: #ff9900;
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+border: 3px solid  #4d94ff;
+padding: 5px;
+}
+#upcoming th {
+  height: 50px;
+  font-size: 20px;
+  color: #000;
+}
+#upcoming td {
+  height: 100px;
+}
+
+.fields left-box {
+  background-color: #fff;
+  float: right;
+  margin-left: 80px
+}
+#dashb {
+  width: 20%;
+  float: right;
+  margin-left: 90%
+}
+
+input[type="text"],
+input[type="password"]{
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  margin-left: 60%;
+  padding: 20px;
+  width: 200px;
+  height: 15px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  border-bottom: 3px solid #000;
+  border-radius: 25px;
+  font-family: serif;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.25 ease;
+}
+
+input[type="submit"]{
+  margin-bottom: 30px;
+  margin-left: 73%;
+  margin-top: 10px;
+  width: 140px;
+  height: 20px;
+  padding: 20px;
+  background: #9fff80;
+  border-bottom: 2px solid #000;
+  border-radius: 50px;
+  color: #fff;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  transition: 0.25 ease;
+  cursor: progress;
+  align-items: center;
+
+}
+
+footer {
+  text-align: center;
+  background-color: #e6e6e6;
+  margin: 1px solid #000;
+  padding-bottom: 3px;
+}
